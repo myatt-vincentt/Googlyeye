@@ -33,6 +33,15 @@
     "src/Scene.tsx",
     "src/FaceBoundingBox.tsx",
     "src/FooterHud.tsx",
-    "src/HandBoundingBox.tsx"
+    "src/HandBoundingBox.tsx",
+    "src/googly/ExperienceStatus.tsx",
+    "src/googly/GooglyEyes.tsx",
+    "src/googly/Hud.tsx",
+    "src/googly/config.ts",
+    "src/googly/pupil.test.ts",
+    "src/googly/pupil.ts",
+    "src/googly/state.ts",
+    "src/DevMediaSwitcher.tsx",
+    "src/googly/sheen.ts"
   ]
 }

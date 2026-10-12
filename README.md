@@ -1,3 +1,22 @@
+# Googly Eye
+
+A big 3D googly eye stuck on each of your eyes. They follow your face, tilt and turn with your
+head, and the pupils move like the real toy: each is a loose weight inside its rim that drops with
+gravity, lags and sloshes when you move, rattles and bounces when you shake your head, and stays
+pointing down when you tilt — so it rolls round the rim. The two never quite agree. Blink and the
+eyes squash shut, knocking the pupils as they open. A hint asks you to shake your head.
+
+- Model: [Googlyeye](https://sketchfab.com/3d-models/googlyeye-d2372d908f124422a094d914be6b0455)
+  by [paija](https://sketchfab.com/paija), licensed
+  [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/) (`public/models/googlyeye.glb`). The
+  app credits it on screen. Changed at runtime: the glass dome's transmission material is swapped
+  for a light glossy shell, the white back is brightened, and a glint and drop shadow are added.
+- Dev preview without a camera: the media switcher (☰) starts on the SDK's "Person Shaking Head"
+  video. An optional local clip goes at `dev-media/face.mp4` (see `dev-media/README.md`).
+- Tuning: `src/googly/config.ts` (size, pupil physics, blink). How it works: `PLAN.md`.
+
+---
+
 # v2-template
 
 The Vincentt starter app: a real React + R3F + Vincentt XR SDK (`@vincentt-xr/sdk`)
